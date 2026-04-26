@@ -217,6 +217,9 @@ El laboratorio fue conectado con **Microsoft Entra Connect** para sincronizar id
 - Escenario híbrido On-Premise + Cloud
 - Preparación para Single Sign-On (SSO)
 - Administración moderna de identidades
+- Sincronización de Directorio: Configuré la sincronización de las Unidades Organizativas locales con el Tenant de Azure AD (Entra ID).
+* Verificación de Identidades: Implementé la validación de usuarios sincronizados, asegurando que los atributos de seguridad y contraseñas (Password Hash Synchronization) se mantuvieran consistentes entre On-Premises y la Nube.
+* Monitoreo del Sync Health: Supervisión del estado de salud del agente de sincronización para garantizar la disponibilidad de las cuentas en servicios como Office 365/Azure.
 
 Esto permitió practicar entornos reales donde coexistente Active Directory local y servicios cloud.
 
